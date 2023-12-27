@@ -4,7 +4,7 @@ const dgram = require("dgram");
 console.log("Logs from your program will appear here!");
 
 // Uncomment this block to pass the first stage
-//
+
 const udpSocket = dgram.createSocket("udp4");
 udpSocket.bind(2053, "127.0.0.1");
 
